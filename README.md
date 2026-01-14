@@ -1,7 +1,7 @@
 # Horse vs Human Classifier - CNN
 
 ## Project Overview
-This project implements a complete deep learning solution for binary image classification between horses and humans. The solution includes:
+This project implements a complete deep learning solution for binary image classification between horses and humans. The solution includes the following features:
 
 1. Training pipeline with MLflow for experiment tracking  
 2. MobileNetV2-based model with transfer learning  
