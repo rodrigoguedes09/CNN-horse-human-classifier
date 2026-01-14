@@ -33,7 +33,7 @@ Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy 
   - EarlyStopping (patience=3)  
 
 ### MLflow Monitoring
-- Automatic tracking of:  
+- Automatic tracking of 
   - Model parameters  
   - Training/validation metrics  
   - Artifacts (models, graphs)  
