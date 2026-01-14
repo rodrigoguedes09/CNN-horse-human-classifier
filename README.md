@@ -39,7 +39,7 @@ Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy 
   - Artifacts (models, graphs)  
 - Visual interface via `mlflow ui`  
 
-## Setup Instructions
+## Setup Instructions:
 
 ### Prerequisites
 - Python 3.8+  
