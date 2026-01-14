@@ -22,7 +22,7 @@ The MobileNetV2 architecture was chosen for its balance between computational ef
   - Softmax-activated Dense Layer for classification  
 
 ### Training Configuration
-Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy loss, suitable for binary classification. With limited data, we applied augmentation (rotations, shifts, horizontal flip) to improve model robustness, while ModelCheckpoint and EarlyStopping (patience=3) callbacks ensured best model selection and prevented overfitting.
+Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy loss, suitable for binary classification. With limited data, we applied augmentation (rotations, shifts, horizontal flip) to improve model robustness, while ModelCheckpoint and EarlyStopping (patience=3) callbacks ensured best model selection and prevented overfitting:
 
 - **Loss Function**: Categorical Crossentropy  
 - **Optimizer**: Adam (learning rate=1e-3)  
