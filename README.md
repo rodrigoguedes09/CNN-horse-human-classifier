@@ -12,7 +12,7 @@ This project implements a complete deep learning solution for binary image class
 ## Technical Justification
 
 ### Model Architecture
-The MobileNetV2 architecture was chosen for its balance between computational efficiency and accuracy, ideal for real-time classification. We used transfer learning with frozen convolutional layers (pre-trained on ImageNet) to extract robust features with limited data, adding Global Average Pooling for dimensionality reduction and a final dense layer with softmax for binary classification.
+The MobileNetV2 architecture was chosen for its balance between computational efficiency and accuracy, ideal for real-time classification. We used transfer learning with frozen convolutional layers (pre-trained on ImageNet) to extract robust features with limited data, adding Global Average Pooling for dimensionality reduction and a final dense layer with softmax for binary classification:
 
 - **Base Architecture**: MobileNetV2 (ImageNet pre-trained) selected for its accuracy/computational efficiency balance  
 - **Transfer Learning**: Frozen base layers to leverage pre-trained features  
@@ -33,7 +33,7 @@ Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy 
   - EarlyStopping (patience=3)  
 
 ### MLflow Monitoring
-- Automatic tracking of:  
+- Automatic tracking of 
   - Model parameters  
   - Training/validation metrics  
   - Artifacts (models, graphs)  
