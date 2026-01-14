@@ -41,7 +41,7 @@ Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy 
 
 ## Setup Instructions:
 
-### Prerequisites
+### Prerequisites:
 - Python 3.8+  
 - TensorFlow 2.12+  
 - MLflow 2.3+  
