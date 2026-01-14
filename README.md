@@ -145,7 +145,8 @@ Access the MLFlow URL for detailed analysis and model monitoring.
 ### Improvement Roadmap
 1. **Dataset**:  
    - Expansion with negative examples  
-   - Subclass balancing  
+   - Subclass balancing
+   - Adjust for better performance
 
 2. **Model**:  
    - Testing with EfficientNetV2  
