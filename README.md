@@ -154,4 +154,5 @@ Access the MLFlow URL for detailed analysis and model monitoring.
 
 3. **System**:  
    - Docker containerization  
-   - CI/CD pipeline  
+   - CI/CD pipeline
+   - Bash interaction
