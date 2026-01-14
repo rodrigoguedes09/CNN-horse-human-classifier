@@ -32,7 +32,7 @@ Training used Adam optimizer (learning rate=1e-3) and categorical cross-entropy 
   - ModelCheckpoint (saves best weights)  
   - EarlyStopping (patience=3)  
 
-### MLflow Monitoring
+### MLflow Monitoring:
 - Automatic tracking of 
   - Model parameters  
   - Training/validation metrics  
